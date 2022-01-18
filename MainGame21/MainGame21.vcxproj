@@ -18,6 +18,21 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Bauer.h" />
+    <ClInclude Include="gotoxy.h" />
+    <ClInclude Include="Heiler.h" />
+    <ClInclude Include="Krieger.h" />
+    <ClInclude Include="ManBat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bauer.cpp" />
+    <ClCompile Include="gotoxy.cpp" />
+    <ClCompile Include="Heiler.cpp" />
+    <ClCompile Include="Krieger.cpp" />
+    <ClCompile Include="ManBat.cpp" />
+    <ClCompile Include="_main.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -114,7 +129,7 @@
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
     </ClCompile>
     <Link>
